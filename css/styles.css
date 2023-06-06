@@ -480,8 +480,12 @@ body {
 		text-align: center;
 	}
 
-	.about {
+	.info-list-li {
 		margin-bottom: 72px;
+	}
+
+	.info-list-li:last-child {
+		margin-bottom: 0;
 	}
 }
 
@@ -662,11 +666,6 @@ body {
 	height: 260px;
 }
 
-.img-team {
-	width: 264px;
-	height: 260px;
-}
-
 .social-list {
 	display: flex;
 	justify-content: center;
@@ -696,6 +695,16 @@ body {
 }
 
 @media screen and (max-width: 767px) {
+	.employees-list {
+		max-width: 264px;
+		margin-bottom: 72px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.employees-list:last-child {
+		margin-bottom: 0;
+	}
 }
 
 @media screen and (min-width: 768px) and (max-width: 1157px) {
