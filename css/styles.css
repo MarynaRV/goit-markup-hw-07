@@ -587,6 +587,12 @@ body {
 
 /* ================= ABOUT ================= */
 
+@media screen and (max-width: 1157px) {
+	.work {
+		display: none;
+	}
+}
+
 .work {
 	padding-top: 0;
 }
