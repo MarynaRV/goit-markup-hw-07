@@ -314,6 +314,7 @@ body {
 	.address {
 		font-style: normal;
 		margin-left: auto;
+		margin-right: 16px;
 	}
 
 	.contact-tel-link {
@@ -517,6 +518,10 @@ body {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1157px) {
+	.container-info {
+		max-width: 736px;
+	}
+
 	.info-list {
 		display: flex;
 		flex-wrap: wrap;
@@ -712,10 +717,9 @@ body {
 		display: flex;
 		flex-wrap: wrap;
 		gap: 24px;
-	}
-
-	.employees-list {
-		width: calc((100% - 24px) / 2);
+		max-width: 552px;
+		margin-left: auto;
+		margin-right: auto;
 	}
 }
 
