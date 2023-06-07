@@ -881,9 +881,7 @@ svg {
 
 .subscribe-input {
 	border-radius: 4px;
-	/* width: 264px;
-	height: 40px; */
-	/* padding-left: 16px; */
+	padding-left: 16px;
 	border: none;
 	border: 1px solid #ffffff;
 	background-color: rgba(0, 0, 0, 0);
@@ -958,10 +956,6 @@ svg {
 		height: 40px;
 	}
 
-	.subscribe-input {
-		margin-top: 16px;
-	}
-
 	.button-subscribe {
 		margin-top: 16px;
 		margin-right: 131px;
@@ -969,16 +963,53 @@ svg {
 	}
 }
 
-@media screen and (max-width: 1157px) {
+@media screen and (min-width: 768px) and (max-width: 1157px) {
+	.subscribe-input {
+		width: 264px;
+		height: 40px;
+	}
+
+	.footer {
+		max-width: 264px;
+		height: 72px;
+	}
+
+	.container-div-footer {
+		display: flex;
+		align-items: baseline;
+		margin-left: 108px;
+	}
+
+	.footer-social-media {
+		margin-left: 24px;
+	}
+
+	.footer-subscribe {
+		margin-top: 72px;
+		margin-left: 108px;
+	}
+
+	.footer-form {
+		display: flex;
+		position: relative;
+	}
+
+	.button-subscribe {
+		margin-left: 24px;
+	}
 }
 
 @media screen and (min-width: 1158px) {
-}
-
-/* .container-footer {
+	/* .container-footer {
 	display: flex;
 	align-items: baseline;
 } */
+
+	/* .footer-form {
+		display: flex;
+		position: relative;
+	} */
+}
 
 /* .footer-logo-container {
 	margin-right: 120px;
