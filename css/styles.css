@@ -1000,33 +1000,44 @@ svg {
 }
 
 @media screen and (min-width: 1158px) {
-	/* .container-footer {
-	display: flex;
-	align-items: baseline;
-} */
+	.container-footer {
+		display: flex;
+		align-items: baseline;
+		max-width: 1158px;
+	}
 
-	/* .footer-form {
+	.footer {
+		max-width: 264px;
+		height: 72px;
+	}
+
+	.container-div-footer {
+		display: flex;
+		align-items: baseline;
+	}
+
+	.footer-form {
 		display: flex;
 		position: relative;
-	} */
+	}
+
+	.footer-logo-container {
+		margin-right: 120px;
+	}
+
+	.footer-subscribe {
+		margin-left: 80px;
+	}
+
+	.subscribe-form {
+		margin-right: 24px;
+	}
+
+	.subscribe-input {
+		width: 264px;
+		height: 40px;
+	}
 }
-
-/* .footer-logo-container {
-	margin-right: 120px;
-} */
-
-/* .footer-subscribe {
-	margin-left: 80px;
-} */
-
-/* .footer-form {
-	display: flex;
-	position: relative;
-} */
-
-/* .subscribe-form {
-	margin-right: 24px;
-} */
 
 /* ================= Portfolio =================*/
 /* ================= Portfolio =================*/
