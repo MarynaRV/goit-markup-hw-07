@@ -483,25 +483,24 @@ body {
 @media screen and (max-width: 767px) {
 	.info {
 		max-width: 396px;
-		margin-bottom: 8px;
 		text-align: center;
 	}
 
-	.info-list-li {
+	.icon-li {
 		margin-bottom: 72px;
 	}
 
-	.info-list-li:last-child {
+	.icon-li:last-child {
 		margin-bottom: 0;
 	}
 }
 
 @media screen and (max-width: 1157px) {
-	.div-container {
+	.icon-logo {
 		display: none;
 	}
 
-	.container-info {
+	.div-container {
 		padding-bottom: 96px;
 		padding-top: 96px;
 	}
@@ -524,7 +523,7 @@ body {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1157px) {
-	.container-info {
+	.div-container {
 		max-width: 736px;
 	}
 
