@@ -328,7 +328,7 @@ body {
 		color: #434455;
 		text-decoration: none;
 		font-weight: 400;
-		font-size: 16px;
+		font-size: 12px;
 		line-height: 1.5;
 		letter-spacing: 0.02em;
 
@@ -352,10 +352,6 @@ body {
 		margin-top: 16px;
 		margin-bottom: 16px;
 	}
-
-	.contact-tel-link {
-		font-size: 12px;
-	}
 }
 
 @media screen and (min-width: 1158px) {
@@ -367,6 +363,7 @@ body {
 		display: flex;
 		align-items: center;
 		gap: 40px;
+		font-size: 16px;
 	}
 
 	.menu-item {
