@@ -349,6 +349,7 @@ body {
 
 	.contact-tel {
 		margin-top: 16px;
+		margin-bottom: 16px;
 	}
 }
 
@@ -496,15 +497,6 @@ body {
 }
 
 @media screen and (max-width: 1157px) {
-	.icon-logo {
-		display: none;
-	}
-
-	.div-container {
-		padding-bottom: 96px;
-		padding-top: 96px;
-	}
-
 	.info {
 		color: var(--primary-text-color-theme-dark);
 		font-weight: 700;
@@ -519,21 +511,30 @@ body {
 		font-weight: 500;
 		font-size: 16px;
 		line-height: 1.5;
+		letter-spacing: 0.02em;
+	}
+	.icon-logo {
+		display: none;
+	}
+
+	.div-container {
+		padding-bottom: 96px;
+		padding-top: 96px;
 	}
 }
 
 @media screen and (min-width: 768px) and (max-width: 1157px) {
 	.div-container {
-		max-width: 736px;
+		width: 768px;
 	}
 
-	.info-list {
+	.info-icon {
 		display: flex;
 		flex-wrap: wrap;
-		gap: 24px;
+		gap: 72px 24px;
 	}
 
-	.info-list-li {
+	.icon-li {
 		width: calc((100% - 24px) / 2);
 	}
 }
@@ -560,7 +561,7 @@ body {
 		margin-right: auto;
 	}
 
-	.info-list-li {
+	.info-icon {
 		width: calc((100%-72px) / 4);
 	}
 
@@ -578,7 +579,7 @@ body {
 		height: 112px;
 	}
 
-	.icon {
+	.info-icon {
 		display: flex;
 		align-items: center;
 		margin-left: auto;
