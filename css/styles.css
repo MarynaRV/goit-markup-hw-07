@@ -878,6 +878,10 @@ svg {
 	margin-bottom: 16px;
 }
 
+.footer-form {
+	display: flex;
+}
+
 .subscribe-input {
 	border-radius: 4px;
 	padding-left: 16px;
@@ -911,7 +915,8 @@ svg {
 }
 
 .footer-subscribe-icon {
-	display: block;
+	margin-left: auto;
+	margin-right: auto;
 	width: 24px;
 	height: 24px;
 	right: 16px;
@@ -920,10 +925,10 @@ svg {
 
 @media screen and (max-width: 767px) {
 	.footer {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+
 		max-width: 264px;
 	}
 
@@ -948,22 +953,28 @@ svg {
 
 	.subscribe {
 		margin-top: 72px;
-		display: flex;
+		display: block;
 		align-items: center;
 		justify-content: center;
 	}
 
 	.subscribe-input {
-		/* width: 300px; */
-		/* max-width: 398px; */
+		width: 100%;
+		max-width: 398px;
 		height: 40px;
+	}
+
+	.footer-form {
+		display: block;
 	}
 
 	.button-subscribe {
 		margin-top: 16px;
-		/* display: flex;
-		align-items: center;
-		justify-content: center; */
+		display: flex;
+		margin-right: auto;
+		margin-left: auto;
+		padding-top: 8px;
+		padding-bottom: 8px;
 	}
 }
 
@@ -993,11 +1004,6 @@ svg {
 		margin-left: 108px;
 	}
 
-	.footer-form {
-		display: flex;
-		position: relative;
-	}
-
 	.button-subscribe {
 		margin-left: 24px;
 	}
@@ -1018,11 +1024,6 @@ svg {
 	.container-div-footer {
 		display: flex;
 		align-items: baseline;
-	}
-
-	.footer-form {
-		display: flex;
-		position: relative;
 	}
 
 	.footer-logo-container {
