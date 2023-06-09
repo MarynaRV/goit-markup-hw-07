@@ -247,6 +247,10 @@ body {
     margin-bottom: 40px;
   }
 
+  .mobile-social-list-item {
+    width: calc((100% - 168px) / 4);
+  }
+
   .mobile-social-list-link {
     display: flex;
     align-items: center;
@@ -270,11 +274,6 @@ body {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1157px) {
-  .page-header {
-    padding-top: 16px;
-    padding-bottom: 16px;
-  }
-
   .contact-tel {
     display: flex;
     flex-direction: column;
@@ -284,7 +283,16 @@ body {
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
-    margin-bottom: ;
+  }
+
+  .list-item {
+    margin-bottom: 12px;
+  }
+
+  .menu-link {
+    display: block;
+    position: relative;
+    padding: 24px 0;
   }
 }
 
@@ -371,11 +379,6 @@ body {
   .menu-list {
     margin-left: 120px;
   }
-
-  /* .contact-tel {
-		margin-top: 16px;
-		margin-bottom: 16px;
-	} */
 }
 
 @media screen and (min-width: 1158px) {
