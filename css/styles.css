@@ -240,15 +240,10 @@ body {
 
   .mobile-social-list {
     display: flex;
-    flex-wrap: wrap;
-    gap: 56px;
+    gap: 36px;
     list-style: none;
     margin-top: 48px;
     margin-bottom: 40px;
-  }
-
-  .mobile-social-list-item {
-    width: calc((100% - 168px) / 4);
   }
 
   .mobile-social-list-link {
