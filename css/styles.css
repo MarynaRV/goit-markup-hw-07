@@ -643,7 +643,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 112px;
   }
 
   .info-icon {
